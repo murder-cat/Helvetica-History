@@ -1,0 +1,139 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body {
+	background-image:url(images/webpage.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	font-family: Helvetica;
+	width: 1600px;
+	height: 5000px;
+}
+div#page-wrap {
+	width: 1600px;
+	height: 5000px;
+	padding-left: 100px;
+}
+ul#nav {
+	list-style: none;
+	position: fixed;
+	width: 100%;
+	top: 0px;
+	background-color: black;
+	padding: 30px;
+	margin: 0 auto;
+	text-align: center;
+	margin-left: -8px;
+	}
+
+	ul#nav li{
+		display:inline;
+
+	}
+	ul#nav li a{
+		float: center;
+		padding-right: 80px;
+		text-decoration: none;
+		color: white;
+		display: inline-block;
+  transition: all 1s ease;
+  -moz-transition: -moz-transform 0.2s ease-in;
+  -webkit-transition: -webkit-transform 0.2s ease-in;
+  -o-transition: -o-transform 0.2s ease-in;
+	}
+
+.entry-title a:hover {
+  -moz-transform: scale(1.1);
+  -webkit-transform: transform scale(1.1);
+  -o-transform: scale(1.1);
+  transform: scale(1.1);
+}
+
+
+/*divs for each page*/
+
+#home{
+	width: 1000px;
+	padding-top: 340px;
+	padding-left: 340px;
+	height: 650px;
+	font-size: 60px;
+}
+
+#overview{
+	padding-top: 100px;
+	height: 1000px;
+}
+	#year{
+		float: left;
+		color: white;
+		margin-top: 100px;
+		padding-left: 200px;
+		font-size: 20px;
+	}
+	#flag{
+		float: left;
+		color: white;
+		margin-top: 50px;
+		padding-left: 150px;
+	}
+
+
+#history{
+	padding-top: 100px;
+	height: 1000px;
+}
+	#info{
+		width: 800px;
+		margin-left: 700px;
+		margin-top: 180px;
+		padding-left: 20px;
+		padding-right: 20px;
+		}
+	#text{
+		background-color: rgba(11,78,91,.7);
+		padding-left: 20px;
+		padding-right: 20px;
+		padding-top: 20px;
+		padding-bottom: 100px;
+		color: white;
+		font-size: 18px;
+		}
+
+#variants{
+	padding-top: 100px;
+	height: 1000px;
+}
+	#photo{
+		float: left;
+		padding-top: 270px;
+		padding-left: 160px;
+		}
+	#information{
+		float: left;
+		padding-top: 250px;
+		padding-left: 400px;
+		color: white;
+		}
+		#information p{
+			padding-top: 20px;
+			}
+
+#documentary{
+	padding-top: 100px;
+	height: 1000px;
+}
+	#movie{
+		padding-top: 150px;
+		padding-left: 400px;
+		}
+	#movie p{
+		text-align: center;
+		border-top: solid white 1px;
+		width: 985px;
+		padding-left: 20px;
+		padding-top: 20px;
+		padding-bottom: 50px;
+		color: white;
+		font-size: 20px;
+		}
